@@ -3,7 +3,7 @@ import pickle
 from PyPDF2 import PdfReader
 from dotenv import load_dotenv, find_dotenv
 from langchain_huggingface.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.question_answering import load_qa_chain
 from langchain_core.callbacks import StdOutCallbackHandler
